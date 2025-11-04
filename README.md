@@ -1,16 +1,16 @@
-# 🚀 Comparação de Desempenho entre Modelos de Threads N:M e 1:1
+#  Comparação de Desempenho entre Modelos de Threads N:M e 1:1
 
 Este documento apresenta a análise comparativa de desempenho do tempo de execução entre dois modelos fundamentais de threads: **N:M** (User-Level com Pool Fixo) e **1:1** (Kernel-Level).
 
-## 🎯 Objetivo
+##  Objetivo
 
 Comparar a performance de tempo de execução entre o **Modelo 1:1** e o **Modelo N:M (Pool Fixo $M=10$)**, analisando o impacto da limitação de threads do sistema.
 
-## ⚙️ Metodologia
+##  Metodologia
 
 Ambos os programas Java executaram a mesma tarefa, que consiste em um cálculo simples seguido de um tempo de bloqueio (`Thread.sleep(10)`). Os testes foram realizados com diferentes quantidades de tarefas ($N$): **10, 100, 500 e 1000**.
 
-## 📊 Resultados
+##  Resultados
 
 Os tempos de execução foram medidos em milissegundos (ms):
 
@@ -30,7 +30,7 @@ O gráfico abaixo ilustra a diferença crescente nos tempos de execução entre 
 <img width="886" height="527" alt="image" src="https://github.com/user-attachments/assets/d4ec4177-1a62-495d-be9c-59614b1fa16e" />
 
 
-## 📈 Análise e Conclusões
+##  Análise e Conclusões
 
 ### 1. Identificação do Ponto de Vantagem (Modelo 1:1)
 
