@@ -25,7 +25,7 @@ Os tempos de execução foram medidos em milissegundos (ms):
 
 O gráfico abaixo ilustra a diferença crescente nos tempos de execução entre os dois modelos:
 
-![Gráfico comparação Modelo N:M e 1:1]
+[Gráfico comparação Modelo N:M e 1:1]
 
 <img width="886" height="527" alt="image" src="https://github.com/user-attachments/assets/d4ec4177-1a62-495d-be9c-59614b1fa16e" />
 
